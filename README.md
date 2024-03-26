@@ -41,7 +41,7 @@ The purpose of this lab is to explore the design of firmware using external inte
 ### 3.4 Create synth player in main.c
 
 1. Begin with a welcome screen
-2. Map music notes to 1-9,A-D keys in a method you choose.
+2. Map music notes to 0-9,A-D keys in a method you choose.
 	- Print "Playing" to the first line
 	- Print the note pitch and type on the second line
 	- Play notes while in this PLAY Mode
