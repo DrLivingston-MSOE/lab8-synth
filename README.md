@@ -43,17 +43,19 @@ The purpose of this lab is to explore the design of firmware using external inte
 1. Begin with a welcome screen
 2. Map music notes to 1-9,A-D keys in a method you choose.
 	- Print "Playing" to the first line
-	- Print "Press * to Rec" on the second line
+	- Print the note pitch and type on the second line
 	- Play notes while in this PLAY Mode
 3. Recording: (*Key)
 	- Start a millisecond counter if the * Key is pressed.
 	- Print "Recording" to the first line
-	- Print the note index and note one second line
+	- Print the note index and note pitch and type on the second line
 	- Notes begin on a down press and stop on the release.
 	- Note these times in a sufficiently large song array.
 	- Stop recording when the * Key is pressed again. 
 4. Playback: (#Key)
 	- Play the currently stored song back.
+	- Print "Playback" to the first line
+	- Print the note index and note pitch and type on the second line
 
 ## 4. Deliverables
 
